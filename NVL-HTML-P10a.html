@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> NVL-HTML-P10a</title>
+</head>
+
+<body><form method="post" action="miservidor.php">
+  	<div>
+    <p><h4><label for="codigopostal">1. Código Postal</label></h4>
+    <input type="text" id="codigopostal" placeholder="código postal" maxlength="5" required="required"></p>
+    </div>
+    <div>
+    <p><h4><label for="satisfaccion"> 2.Nivel de satisfacción </label></h4>
+    <input type="range" id="satisfaccion" min="1" max="5"></p>
+    </div>
+    <div>
+      <h4><label for="email">3.e-mail:</label></h4>
+      <input type="email" id="email" required="required">
+    </div>
+    <div>
+    	<p><h4><label for="puntospositivos">4.Puntos positivos del producto</label></h4>
+        <textarea id="puntospositivos"> </textarea></p>
+    </div>
+    <div><p><h4>
+    <label for="puntosnegativos">5.Puntos negativos del producto </label></h4>
+        <textarea id="puntosnegativos"></textarea></p>
+  </div>
+  <div>
+  <p><h4>6a.Características opción 1 <br></h4></p>
+ <p><strong> Puntualidad 
+  <select name="Puntualidad">
+    <option>Excelente</option>
+<option>Bueno</option>
+<option>Regular</option>
+<option>Pésimo</option>
+</select><br></strong>
+
+<p><strong>Limpieza </strong>
+  <select name="Limpieza">
+    <option>Excelente</option>
+<option>Bueno</option>
+<option>Regular</option>
+<option>Pésimo</option>
+</select><br></p>
+<p><strong>Comodidad </strong>
+  <select name="Comodidad">
+<option>Excelente</option>
+<option>Bueno</option>
+<option>Regular</option>
+<option>Pésimo</option>
+</select></p>
+</div>
+<div><p><strong>
+6b.Características opción 2 <br></strong>
+  <label for="caracteristicas2"></label></p>
+ <p><strong> Puntualidad <br></strong>
+ 
+<input type="radio" name="Puntualidad" value="1">Excelente <br>
+<input type="radio" name="Puntualidad" value="2">Bueno <br>
+<input type="radio" name="Puntualidad" value="3">Regular<br>
+<input type="radio" rame="Puntualidad" value="4">Pésimo <br>
+</p>
+<p>
+<strong>Limpieza <br></strong>
+ 
+<input type="radio" name="Puntualidad" value="1">Excelente <br>
+<input type="radio" name="Puntualidad" value="2">Bueno <br>
+<input type="radio" name="Puntualidad" value="3">Regular<br>
+<input type="radio" rame="Puntualidad" value="4">Pésimo <br>
+</p>
+<p><strong>Comodidad <br></strong>
+ 
+<input type="radio" name="Puntualidad" value="1">Excelente <br>
+<input type="radio" name="Puntualidad" value="2">Bueno <br>
+<input type="radio" name="Puntualidad" value="3">Regular<br>
+<input type="radio" rame="Puntualidad" value="4">Pésimo <br>
+</p>
+</div>
+
+<input type="submit" value="Enviar"> 
+</form>
+</body>
+</html>
